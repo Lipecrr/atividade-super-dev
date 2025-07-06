@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <title>Pagamenmto</title>
 
     <!--
@@ -16,11 +17,13 @@
 </head>
 <body>
 
-    <button><a href="../produtos.html">Voltar</a></button>
-    <button><a href="../index.html">Inicio</a></button>
+
+    <button class="botao"> <a href="../produtos.html" class="botao-texto">Voltar</a></button>
+    <button class="botao"><a href="../index.html" class="botao-texto">Inicio</a></button>
     <br>
     <br>
 
+    <div class="pagamento">
     <img src="../assets/gato-filhote.jpg" alt="racao-gato-filhote" width="400">
 
     <form action="salvar-pagamento.php">
@@ -64,8 +67,9 @@
     <br>
     <br>
 
-    <button type="submit">Finalizar</button>
+    <button type="submit" class="botao-pagamento"><a href="" class="botao-texto">Finalizar</a></button>
 
     </form>
+    </div>
 </body>
 </html>
