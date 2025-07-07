@@ -66,6 +66,54 @@ body {
     background-image: url('assets/laika-lingua.png')
 }
 
+.corpo-cadastro-cliente {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro-cliente  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+    background-color: rgb(224, 241, 241);
+    border: 5px solid;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.form-cadastro-cliente {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    gap: 30px;
+    font-size: 30px;
+    
+}
+
+.div-botao-cadastrar-cliente {
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao-cadastrar-cliente {
+    background-color: rgb(164, 245, 245);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid;
+}
+
+.botao-cadastrar-cliente:hover {
+    background-color: aquamarine;
+}
+
 .tabelas {
     box-sizing: border-box;
     display: flex;
