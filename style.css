@@ -1,3 +1,71 @@
+body {
+    background-color: rgb(241, 234, 248);
+}
+
+
+.logo {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    height: 100px;
+    padding: 20px 0 0 20px
+}
+
+.navegacao-botao {
+    background-color: rgb(164, 245, 245);
+    display: flex;
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid;
+}
+
+.navegacao-botao:hover {
+    background-color: aquamarine;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.inicio-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 50px;
+
+}
+
+.logo {
+    background-image: url('assets/laika.png');
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    transition: background-image 0.3s ease;
+    border: 5px solid;
+
+}
+
+.logo:hover {
+    background-image: url('assets/laika-lingua.png')
+}
+
 .tabelas {
     box-sizing: border-box;
     display: flex;
