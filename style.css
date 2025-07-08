@@ -33,7 +33,7 @@ body {
 }
 
 .navegacao-botao:hover {
-    background-color: aquamarine;
+    background-color: rgb(224, 200, 248);
 }
 
 .corpo {
@@ -113,6 +113,63 @@ body {
 .botao-cadastrar-cliente:hover {
     background-color: aquamarine;
 }
+
+
+.corpo-cadastro-pet {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro-pet {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    width: 700px;
+    background-color: rgb(224, 241, 241);
+    border: 5px solid;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.form-cadastro-pet {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    gap: 30px;
+    font-size: 20px;
+    
+}
+
+.div-botao-cadastrar-pet {
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao-cadastrar-pet {
+    background-color: rgb(164, 245, 245);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid;
+}
+
+.botao-cadastrar-pet:hover {
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
 
 .tabelas {
     box-sizing: border-box;
