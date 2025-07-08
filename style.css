@@ -1,7 +1,19 @@
 body {
     background-color: rgb(241, 234, 248);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
 }
 
+nav {
+    background-color: rgb(233, 219, 247);
+    padding: 0 0 0 0;
+    border-radius: 15px;
+    width: 70%;
+    border: 2px solid;
+}
 
 .logo {
     border-radius: 50%;
@@ -57,7 +69,7 @@ body {
     width: 300px;
     height: 400px;
     background-size: cover;
-    transition: background-image 0.3s ease;
+    transition: background-image 0.1s ease;
     border: 5px solid;
 
 }
@@ -111,7 +123,7 @@ body {
 }
 
 .botao-submit:hover {
-    background-color: aquamarine;
+    background-color: rgb(224, 200, 248);
 }
 
 .login-cliente  {
