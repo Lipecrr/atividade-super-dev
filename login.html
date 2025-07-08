@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cadastro de Cliente</title>
+    <title>Login</title>
 </head>
 
 <body>
-
     <nav class="navegacao">
         <a href="index.html" class="navegacao-botao">Inicio</a>
         <a href="login.html" class="navegacao-botao">Login</a>
@@ -17,15 +16,9 @@
     </nav>
 
     <main class="corpo">
-        <div class="cadastro-cliente">
-            <h1>Crie sua conta</h1>
+        <div class="login-cliente">
+            <h1>Entre com sua conta</h1>
             <form action="home.html" method="get" class="form-cadastro-login">
-
-                <label for="campo-primeiro-nome">Primeiro nome</label>
-                <input type="text" required id="campo-primeiro-nome" minlength="3" maxlength="25" name="primeiro-nome">
-
-                <label for="campo-sobrenome">Sobrenome</label>
-                <input type="text" required id="campo-sobrenome" minlength="3" maxlength="25" name="sobrenome">
 
                 <label for="campo-email">Email</label>
                 <input type="email" required id="campo-email" name="email">
@@ -33,10 +26,8 @@
                 <label for="campo-senha">Senha</label>
                 <input type="password" required id="campo-senha" name="senha">
 
-                <label for="campo-telefone">Telefone</label>
-                <input type="tel" required id="campo-telefone" name="telefone">
                 <div class="div-botao-submit">
-                    <button type="submit" class="botao-submit">Cadastrar</button>
+                    <button type="submit" class="botao-submit">Entrar</button>
                 </div>
             </form>
         </div>

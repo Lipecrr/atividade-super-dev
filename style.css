@@ -66,7 +66,7 @@ body {
     background-image: url('assets/laika-lingua.png')
 }
 
-.corpo-cadastro-cliente {
+.corpo{
     display: flex;
     justify-content: center;
 }
@@ -83,7 +83,7 @@ body {
     padding-bottom: 30px;
 }
 
-.form-cadastro-cliente {
+.form-cadastro-login {
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -93,13 +93,13 @@ body {
     
 }
 
-.div-botao-cadastrar-cliente {
+.div-botao-submit {
     display: flex;
     justify-content: center;
 
 }
 
-.botao-cadastrar-cliente {
+.botao-submit {
     background-color: rgb(164, 245, 245);
     width: 200px;
     height: 50px;
@@ -110,22 +110,15 @@ body {
     border: 3px solid;
 }
 
-.botao-cadastrar-cliente:hover {
+.botao-submit:hover {
     background-color: aquamarine;
 }
 
-
-.corpo-cadastro-pet {
+.login-cliente  {
     display: flex;
-    justify-content: center;
-}
-
-.cadastro-pet {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
+    height: 400px;
     width: 700px;
     background-color: rgb(224, 241, 241);
     border: 5px solid;
@@ -133,36 +126,26 @@ body {
     padding-bottom: 30px;
 }
 
-.form-cadastro-pet {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 90%;
-    gap: 30px;
-    font-size: 20px;
-    
-}
 
-.div-botao-cadastrar-pet {
+
+
+
+.cadastro-pet {
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
+    height: 1150px;
+    width: 700px;
+    background-color: rgb(224, 241, 241);
+    border: 5px solid;
+    border-radius: 10px;
+    padding-bottom: 30px;
 }
 
-.botao-cadastrar-pet {
-    background-color: rgb(164, 245, 245);
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    border: 3px solid;
-}
 
-.botao-cadastrar-pet:hover {
-    background-color: aquamarine;
-}
+
+
 
 
 
