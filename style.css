@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(241, 234, 248);
     display: flex;
@@ -8,11 +13,16 @@ body {
 }
 
 nav {
+    margin-top: 10px;
     background-color: rgb(233, 219, 247);
     padding: 0 0 0 0;
     border-radius: 15px;
     width: 70%;
     border: 2px solid;
+}
+
+h1 {
+    margin-top: 10px;
 }
 
 .logo {
@@ -87,7 +97,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
+    height: 660px;
     width: 700px;
     background-color: rgb(224, 241, 241);
     border: 5px solid;
@@ -96,6 +106,7 @@ nav {
 }
 
 .form-cadastro-login {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -130,7 +141,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    height: 350px;
     width: 700px;
     background-color: rgb(224, 241, 241);
     border: 5px solid;
@@ -157,12 +168,28 @@ nav {
 
 
 
+table{
+    width: 900px;
+    text-align: center;
+}
+
+tbody {
+    background-color: rgb(233, 219, 247);
+}
 
 
+thead{
+    background-color: rgb(233, 219, 247);
 
+}
 
+.img-produto {
+    width: 100px;
+}
 
-
+.codigo-produto {
+    width: 30px;
+}
 
 
 
@@ -210,9 +237,9 @@ nav {
 }
 
 .botao-comprar {
-    background-color: rgb(77, 228, 77);
+    background-color: rgb(139, 241, 139);
     border-radius: 8px;
-    width: 100%;
+    width: 80%;
     height: 40px;
     color: black;
     text-decoration: none;
@@ -226,3 +253,10 @@ nav {
 .texto-composicao {
     padding: 10px 25% 10px 25%;
 }
+
+/*footer {
+    text-align: center;
+    background-color: rgb(233, 219, 247);
+    width: 100%;
+    position: absolute;
+} */
