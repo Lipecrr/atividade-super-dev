@@ -4,20 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../css/style.css">
     <title>Pagamenmto</title>
-
-    <!--
-    nome completo ok
-    numero do cartao ok -- *falta ajustar aceitar apenas numeros nesse campo*
-    data de validade ok 
-    codigo de segurança ok -- *falta ajustar aceitar apenas numeros nesse campo*
-    tipo de cartao ok
-    bt pagar ok
-    -->
 </head>
 
 <body>
+
 
     <button class="botao"> <a href="../produtos.html" class="botao-texto">Voltar</a></button>
     <button class="botao"><a href="../index.html" class="botao-texto">Inicio</a></button>
@@ -25,7 +17,7 @@
     <br>
 
     <div class="pagamento">
-        <img src="../assets/gato-adulto.jpg" alt="racao-gato-adulto" width="400">
+        <img src="../../css/assets/gato-filhote.jpg" alt="racao-gato-filhote" width="400">
 
         <form action="salvar-pagamento.php">
 
@@ -59,6 +51,7 @@
 
             <input type="radio" required id="campo-cartao-mastercard" name="tipo-cartao" value="mastercard">
             <label for="campo-cartao-mastercard">MasterCard</label>
+
 
             <input type="radio" required id="campo-cartao-visa" name="tipo-cartao" value="visa">
             <label for="campo-cartao-visa">Visa</label>
