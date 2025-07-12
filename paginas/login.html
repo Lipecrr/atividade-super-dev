@@ -9,15 +9,23 @@
 </head>
 
 <body>
+    <header>
+        <h1>🐶LaikaShop😺</h1>
+        <P>O melhor espaço para o seu pet</P>
+    </header>
+
     <nav class="navegacao">
-        <a href="index.html" class="navegacao-botao">Inicio</a>
+        <a href="index.html" class="navegacao-botao">Início</a>
+        <a href="servicos.html" class="navegacao-botao">Serviços</a>
+        <a href="produtos.html" class="navegacao-botao">Produtos</a>
         <a href="login.html" class="navegacao-botao">Login</a>
         <a href="cadastro-cliente.html" class="navegacao-botao">Cadastre-se</a>
     </nav>
 
-    <main class="corpo">
+    <main>
         <div class="login-cliente">
             <h1>Entre com sua conta</h1>
+
             <form action="home.html" method="get" class="form-cadastro-login">
 
                 <label for="campo-email">Email</label>
@@ -25,6 +33,13 @@
 
                 <label for="campo-senha">Senha</label>
                 <input type="password" required id="campo-senha" name="senha">
+                
+                <div>
+                    <input type="checkbox" id="campo-lembarar-me" name="lembarar-me" value="sim">
+                    <label for="campo-lembarar-me">Lembarar-me</label>
+                    <a href="">Esqueci minha senha?</a>
+                </div>
+
 
                 <div class="div-botao-submit">
                     <button type="submit" class="botao-submit">Entrar</button>
@@ -32,7 +47,10 @@
             </form>
         </div>
     </main>
-    <!--<footer>Criado por Felipe</footer>-->
+
+    <footer>
+        <p>🐶LaikaShop😺 - Criado por Felipe Fernando Corrêa</p>
+    </footer>
 </body>
 
 </html>
