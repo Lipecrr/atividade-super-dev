@@ -27,6 +27,8 @@ footer {
     align-items: center;
 }
 
+/*===================================================================================================================*/
+
 .logo {
     border-radius: 50%;
     width: 300px;
@@ -59,55 +61,7 @@ footer {
     border-radius: 10px;
 }
 
-.corpo-inicio{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.corpo-inicio-imagem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    font-size: 40px;
-    gap: 10px;
-
-}
-
-.corpo-logo {
-    background-image: url('assets/laika.png');
-    width: 300px;
-    height: 400px;
-    background-size: cover;
-    transition: background-image 0.1s ease;
-    border: 5px solid;
-    border-radius: 70px;
-}
-
-.corpo-logo:hover {
-    background-image: url('assets/laika-lingua.png')
-    
-}
-
-.corpo-inicio-sobre-nos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.corpo-inicio-sobre-nos-h2 {
-    font-size: 40px;
-}
-
-.corpo-inicio-p {
-    padding: 20px;
-    width: 50%;
-    font-size: 20px;
-}
-
+/*===================================================================================================================*/
 
 .login-cliente  {
     background-color: white;
@@ -128,6 +82,15 @@ footer {
     
 }
 
+.form-cadastro-login {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    gap: 10px;
+    font-size: 30px;
+}
 
 .login-input{
     height: 30px;
@@ -135,8 +98,32 @@ footer {
     padding-left: 20px;
 }
 
+.div-botao-submit {
+    display: flex;
+    justify-content: center;
+    width: 100;
 
+}
 
+.botao-submit {
+    background-color: #4EB1BA;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    border: 3px solid;
+}
+
+.botao-submit:hover {
+    background-color: #a5e2e7;
+}
+
+.div-botao-submit-cadastrar {
+    padding-top: 50px;
+    text-align: center;
+}
 
 .login-botao-cadastrar {
     display: flex;
@@ -155,26 +142,4 @@ footer {
 
 .login-botao-cadastrar:hover{
     background-color: #f5db9f;
-}
-
-/*------------------------------------------------------------------------------------------------*/
-
-.cadastro-pet {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 1150px;
-    width: 700px;
-    background-color: rgb(224, 241, 241);
-    border: 5px solid;
-    border-radius: 10px;
-    padding-bottom: 30px;
-}
-
-.botao {
-    width: 8%;
-    background-color: white;
-    border-color: black;
-    border-radius: 10px;
 }

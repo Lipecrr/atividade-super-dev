@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/cadastro.css">
+    <title>Cadastro de Cliente</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none; color: black;">
+            <h1>🐶LaikaShop😺</h1>
+            <P>O melhor espaço para o seu pet</P>
+        </a>
+    </header>
+    <nav class="navegacao">
+        <a href="index.html" class="navegacao-botao">Voltar</a>
+    </nav>
+    <main>
+        <div class="cadastro-cliente">
+            <h1>Crie sua conta</h1>
+            <form action="../acesso-paginas-login-on/home.html" method="get" class="form-cadastro-login">
+
+                <label for="campo-nome-sobrenome">Nome e sobrenome</label>
+                <input class="cadastro-input" type="text" required id="campo-nome-sobrenome" minlength="3" maxlength="25" name="nome-sobrenome"
+                    placeholder="Digite seu nome e sobrenome">
+
+                <label for="campo-email">E-mail</label>
+                <input class="cadastro-input" type="email" required id="campo-email" name="email" placeholder="Digite seu e-mail">
+
+                <label for="campo-telefone">Telefone</label>
+                <input class="cadastro-input" type="tel" required id="campo-telefone" name="telefone" placeholder="DDD + Telefone"
+                    minlength="11" maxlength="11">
+
+                <label for="campo-genero">Gênero</label>
+                <select class="cadastro-input" id="campo-genero" name="genero" required>
+                    <option value="">Escolha o gênero</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                </select>
+
+                <label for="campo-cpf">Cpf</label>
+                <input class="cadastro-input" type="text" required id="campo-cpf" name="cpf" minlength="14" maxlength="14"
+                    placeholder="000.000.000-00">
+
+                <label for="campo-senha">Senha</label>
+                <input class="cadastro-input" type="password" required id="campo-senha" name="senha" placeholder="Digite sua senha">
+
+                <div class="termos">
+                <input type="checkbox" required id="campo-termos" name="termo" value="sim">
+                <label for="campo-termos">Concordo com os <a href="https://www.meme-arsenal.com/memes/81e636c6eeedaccf7ef1355345572f27.jpg">termos e consições</a></label>
+                </div>
+
+                <div class="div-botao-submit">
+                    <button type="submit" class="botao-submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>🐶LaikaShop😺 - Criado por Felipe Fernando Corrêa</p>
+    </footer>
+</body>
+
+</html>

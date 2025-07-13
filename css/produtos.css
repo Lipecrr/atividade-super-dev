@@ -64,10 +64,6 @@ table{
 
 }
 
-tbody {
-}
-
-
 thead{
     height: 40px;
     font-size: 20px;
@@ -111,7 +107,7 @@ img {
 
 .botao-mais-informacao {
     font-size: 23px;
-    color: ;
+    color: #000;
 }
 
 .botao-mais-informacao:hover {

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../css/pagamento.css">
+    <title>Pagamenmto</title>
+
+</head>
+<body>
+
+    <header>
+        <a href="../../index.html" style="text-decoration: none; color: black;">
+            <h1>🐶LaikaShop😺</h1>
+            <P>O melhor espaço para o seu pet</P>
+        </a>
+    </header>
+    
+    <nav class="navegacao">
+        <a href="../../produtos-login-off.html" class="navegacao-botao">Voltar</a>
+    </nav>
+
+    <div class="pagamento">
+        <img src="../../../../../css/assets/gato-filhote.jpg" alt="racao-gato-filhote" width="400">
+
+        <form class="form-pagamento" action="compra-finalizada.html" method="get">
+
+            <label for="campo-quantidade">Quantidade</label>
+            <input class="pagamento-input" type="number" required id="campo-quantidade" value="1" name="quantidade"
+                min="1">
+
+
+            <h2>Pagamento</h2>
+
+
+
+            <label for="campo-nome-completo">Nome completo</label>
+            <input class="pagamento-input" type="text" required id="campo-nome-completo" name="nome-completo"
+               placeholder="Digite seu nome e sobrenome" minlength="3" maxlength="40">
+
+
+            <label for="campo-numero-do-cartao">Número do cartão</label>
+            <input class="pagamento-input" type="text" required id="campo-numero-do-cartao" name="numero-do-cartao"
+              placeholder="0000 0000 0000 0000"  minlength="19" maxlength="19">
+
+
+            <label for="campo-vencimento-cartao">Data de vencimento</label>
+            <input class="pagamento-input" type="month" required id="campo-vencimento-cartao" name="vencimento-cartao">
+
+
+            <label for="campo-cvv-cartao">Código de segurança (CVV)</label>
+            <input class="pagamento-input" type="tel" required id="campo-cvv-cartao" name="cvv-cartao" minlength="3"
+                maxlength="3">
+
+
+            <h3>Tipo de cartão</h3>
+            <div>
+                <input type="radio" required id="campo-cartao-mastercard" name="tipo-cartao" value="mastercard">
+                <label for="campo-cartao-mastercard">MasterCard</label>
+
+                <input type="radio" required id="campo-cartao-visa" name="tipo-cartao" value="visa">
+                <label for="campo-cartao-visa">Visa</label>
+            </div>
+
+            <div class="div-botao-submit-pagamento">
+                <button type="submit" class="botao-pagamento">Finalizar</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
