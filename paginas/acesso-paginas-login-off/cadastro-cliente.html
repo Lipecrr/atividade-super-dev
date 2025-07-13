@@ -16,23 +16,28 @@
         </a>
     </header>
     <nav class="navegacao">
-        <a href="../../index.html" class="navegacao-botao">Voltar</a>
+        <a href="../../index.html" class="navegacao-botao">Início</a>
+        <!--<a href="" class="navegacao-botao">Serviços</a>-->
+        <a href="produtos-login-off.html" class="navegacao-botao">Produtos</a>
+        <a href="login.html" class="navegacao-botao">Login</a>
+        <a href="cadastro-cliente.html" class="navegacao-botao">Cadastre-se</a>
     </nav>
     <main>
         <div class="cadastro-cliente">
             <h1>Crie sua conta</h1>
-            <form action="../acesso-paginas-login-on/home.html" method="get" class="form-cadastro-login">
+            <form action="login.html" method="get" class="form-cadastro-login">
 
                 <label for="campo-nome-sobrenome">Nome e sobrenome</label>
-                <input class="cadastro-input" type="text" required id="campo-nome-sobrenome" minlength="3" maxlength="25" name="nome-sobrenome"
-                    placeholder="Digite seu nome e sobrenome">
+                <input class="cadastro-input" type="text" required id="campo-nome-sobrenome" minlength="3"
+                    maxlength="25" name="nome-sobrenome" placeholder="Digite seu nome e sobrenome">
 
                 <label for="campo-email">E-mail</label>
-                <input class="cadastro-input" type="email" required id="campo-email" name="email" placeholder="Digite seu e-mail">
+                <input class="cadastro-input" type="email" required id="campo-email" name="email"
+                    placeholder="Digite seu e-mail">
 
                 <label for="campo-telefone">Telefone</label>
-                <input class="cadastro-input" type="tel" required id="campo-telefone" name="telefone" placeholder="DDD + Telefone"
-                    minlength="11" maxlength="11">
+                <input class="cadastro-input" type="tel" required id="campo-telefone" name="telefone"
+                    placeholder="DDD + Telefone" minlength="11" maxlength="11">
 
                 <label for="campo-genero">Gênero</label>
                 <select class="cadastro-input" id="campo-genero" name="genero" required>
@@ -42,15 +47,18 @@
                 </select>
 
                 <label for="campo-cpf">Cpf</label>
-                <input class="cadastro-input" type="text" required id="campo-cpf" name="cpf" minlength="14" maxlength="14"
-                    placeholder="000.000.000-00">
+                <input class="cadastro-input" type="text" required id="campo-cpf" name="cpf" minlength="14"
+                    maxlength="14" placeholder="000.000.000-00">
 
                 <label for="campo-senha">Senha</label>
-                <input class="cadastro-input" type="password" required id="campo-senha" name="senha" placeholder="Digite sua senha">
+                <input class="cadastro-input" type="password" required id="campo-senha" name="senha"
+                    placeholder="Digite sua senha">
 
                 <div class="termos">
-                <input type="checkbox" required id="campo-termos" name="termo" value="sim">
-                <label for="campo-termos">Concordo com os <a href="https://www.meme-arsenal.com/memes/81e636c6eeedaccf7ef1355345572f27.jpg">termos e consições</a></label>
+                    <input type="checkbox" required id="campo-termos" name="termo" value="sim">
+                    <label for="campo-termos">Concordo com os <a
+                            href="https://www.meme-arsenal.com/memes/81e636c6eeedaccf7ef1355345572f27.jpg">termos e
+                            condições</a></label>
                 </div>
 
                 <div class="div-botao-submit">

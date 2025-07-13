@@ -49,7 +49,7 @@ footer {
     font-size: 20px;
     align-items: center;
     text-decoration: none;
-    width: 100px;
+    width: 150px;
     height: 50px;
     color: black;
     }
@@ -159,18 +159,6 @@ footer {
 
 /*------------------------------------------------------------------------------------------------*/
 
-.cadastro-pet {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 1150px;
-    width: 700px;
-    background-color: rgb(224, 241, 241);
-    border: 5px solid;
-    border-radius: 10px;
-    padding-bottom: 30px;
-}
 
 .botao {
     width: 8%;

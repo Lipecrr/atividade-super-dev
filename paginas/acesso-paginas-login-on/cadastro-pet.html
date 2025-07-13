@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/cadastro-pet.css">
+    <title>Cadastro do pet</title>
+
+</head>
+
+<body>
+    <header>
+        <a href="home.html" style="text-decoration: none; color: black;">
+            <h1>🐶LaikaShop😺</h1>
+            <P>O melhor espaço para o seu pet</P>
+        </a>
+    </header>
+
+    <nav class="navegacao">
+        <a href="home.html" class="navegacao-botao">Início</a>
+      <!--<a href="" class="navegacao-botao">Serviços</a>-->
+        <a href="produtos-login-on.html" class="navegacao-botao">Produtos</a>
+        <a href="cadastro-pet.html" class="navegacao-botao">Cadastre seu pet</a>
+        <a href="../../index.html" class="navegacao-botao">Sair</a>
+    </nav>
+    <main>
+        <div class="cadastro-pet">
+            <h2>Cadastre seu pet</h2>
+            <form action="home.html" method="get" class="form-cadastro-login">
+
+                <label for="campo-nome-pet">Nome</label>
+                <input class="cadastro-pet-input" type="text" required id="campo-nome-pet" placeholder="Digite o nome do pet" minlength="2" maxlength="25"
+                    name="nome-pet">
+
+                <label for="campo-especie-pet">Pet</label>
+                <select class="cadastro-pet-input" required id="campo-especie-pet" name="especie-pet">
+                    <option value="">Escolha o espécie</option>
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gatos</option>
+                </select>
+
+                <label for="campo-sexo-pet">Sexo do pet</label>
+                <select class="cadastro-pet-input" required id="campo-sexo-pet" name="sexo-pet">
+                    <option value="">Escolha o sexo</option>
+                    <option value="macho">Macho</option>
+                    <option value="femea">Fêmea</option>
+                </select>
+
+                <label for="campo-data-nascimento-pet">Data de nascimento</label>
+                <input class="cadastro-pet-input" type="date" required id="campo-data-nascimento-pet"
+                    name="data-nascimento-pet">
+
+
+                <label for="campo-raca-pet">Raça do pet</label>
+                <input class="cadastro-pet-input" type="text" required id="campo-raca-pet" minlength="2" maxlength="25"
+                    name="raca-pet">
+
+                <label for="campo-peso-pet">Peso do pet</label>
+                <input class="cadastro-pet-input" type="number" required id="campo-peso-pet" min="0" step="0.1"
+                    name="peso-pet">
+
+                <h2>Castrado</h2>
+                <div>
+                    <input type="radio" required id="campo-castrado-sim" name="castrado" value="sim">
+                    <label for="campo-castrado-sim">Sim</label>
+
+                    <input type="radio" required id="campo-castrado-nao" name="castrado" value="nao">
+                    <label for="campo-castrado-nao">Não</label>
+                </div>
+                <label for="campo-anexo-pet">Foto do pet</label>
+                <input class="cadastro-pet-input" type="file" required id="campo-anexo-pet" name="anexo-pet">
+
+                <div class="div-botao-submit">
+                    <button type="submit" class="botao-submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>🐶LaikaShop😺 - Criado por Felipe Fernando Corrêa</p>
+    </footer>
+</body>
+
+</html>

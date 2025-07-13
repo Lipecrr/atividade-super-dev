@@ -58,10 +58,14 @@ footer {
     background-color: #f0ab0c;
     border-radius: 10px;
 }
+/*==============================================================================================*/
 
-/*========================================================================================================*/
 
-.cadastro-cliente  {
+h2 {
+    font-size: 40px;
+}
+
+.cadastro-pet {
 
     background-color: white;
     box-shadow: 
@@ -72,13 +76,16 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 680px;
+    height: 850px;
     width: 500px;
     border-radius: 30px;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-bottom: 215px;
     padding-top: 50px;
+    
+
 }
+
 
 .form-cadastro-login {
     margin-top: 10px;
@@ -90,24 +97,12 @@ footer {
     font-size: 30px;
 }
 
-.cadastro-input{
-    height: 30px;
-    font-size: 20px;
-    padding-left: 20px;
-}
-
-.termos {
-    font-size: 20px;
-}
-
-
 .div-botao-submit {
     display: flex;
     justify-content: center;
     width: 100;
-
+    padding-top: 30px;
 }
-
 
 .botao-submit {
     background-color: #4EB1BA;
@@ -116,17 +111,16 @@ footer {
     border-radius: 20px;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #000;
     border: 3px solid;
 }
-
 
 .botao-submit:hover {
     background-color: #a5e2e7;
 }
 
-.div-botao-submit-cadastrar {
-    padding-top: 50px;
-    text-align: center;
+.cadastro-pet-input{
+    height: 30px;
+    font-size: 20px;
+    padding-left: 20px;
 }
-/*========================================================================================================*/
