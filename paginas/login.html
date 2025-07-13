@@ -10,17 +10,11 @@
 
 <body>
     <header>
-        <h1>🐶LaikaShop😺</h1>
-        <P>O melhor espaço para o seu pet</P>
+        <a href="index.html" style="text-decoration: none; color: black;">
+            <h1>🐶LaikaShop😺</h1>
+            <P>O melhor espaço para o seu pet</P>
+        </a>
     </header>
-
-    <nav class="navegacao">
-        <a href="index.html" class="navegacao-botao">Início</a>
-        <a href="servicos.html" class="navegacao-botao">Serviços</a>
-        <a href="produtos.html" class="navegacao-botao">Produtos</a>
-        <a href="login.html" class="navegacao-botao">Login</a>
-        <a href="cadastro-cliente.html" class="navegacao-botao">Cadastre-se</a>
-    </nav>
 
     <main>
         <div class="login-cliente">
@@ -28,21 +22,22 @@
 
             <form action="home.html" method="get" class="form-cadastro-login">
 
-                <label for="campo-email">Email</label>
-                <input type="email" required id="campo-email" name="email">
+                <input class="login-input" type="email" required id="campo-email" name="email" placeholder="Email">
 
-                <label for="campo-senha">Senha</label>
-                <input type="password" required id="campo-senha" name="senha">
-                
+                <input class="login-input" type="password" required id="campo-senha" name="senha" placeholder="Senha">
+
                 <div>
                     <input type="checkbox" id="campo-lembarar-me" name="lembarar-me" value="sim">
-                    <label for="campo-lembarar-me">Lembarar-me</label>
-                    <a href="">Esqueci minha senha?</a>
+                    <label for="campo-lembarar-me">Lembra-me</label>
                 </div>
-
 
                 <div class="div-botao-submit">
                     <button type="submit" class="botao-submit">Entrar</button>
+                </div>
+
+                <div class="div-botao-submit-cadastrar">
+                    <p>Ainda não tem uma conta?</p>
+                    <a href="cadastro-cliente.html" class="login-botao-cadastrar">Criar conta</a>
                 </div>
             </form>
         </div>
