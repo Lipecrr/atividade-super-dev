@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Pagamenmto</title>
+
+</head>
+
+<body>
+
+    <button class="botao"> <a href="../produtos.html" class="botao-texto">Voltar</a></button>
+    <button class="botao"><a href="../index.html" class="botao-texto">Inicio</a></button>
+    <br>
+    <br>
+
+    <div class="pagamento">
+
+        <img src="../../css/assets/cachorro-adulto.webp" alt="racao-cachorro-adulto">
+
+        <form action="salvar-pagamento.php">
+
+            <label for="campo-quantidade">Quantidade</label>
+            <input type="number" required id="campo-quantidade" value="1" name="quantidade" min="1">
+            <br>
+
+            <h1>Pagamento</h1>
+            <br>
+
+            <br>
+
+            <label for="campo-nome-completo">Nome completo</label>
+            <input type="text" required id="campo-nome-completo" name="nome-completo" minlength="3" maxlength="40">
+            <br>
+
+            <label for="campo-numero-do-cartao">Número do cartão</label>
+            <input type="text" required id="campo-numero-do-cartao" name="numero-do-cartao" minlength="16"
+                maxlength="16">
+            <br>
+
+            <label for="campo-vencimento-cartao">Data de vencimento</label>
+            <input type="month" required id="campo-vencimento-cartao" name="vencimento-cartao">
+            <br>
+
+            <label for="campo-cvv-cartao">Código de segurança (CVV)</label>
+            <input type="tel" required id="campo-cvv-cartao" name="cvv-cartao" minlength="3" maxlength="3">
+            <br>
+
+            <h3>Tipo de cartão</h3>
+
+            <input type="radio" required id="campo-cartao-mastercard" name="tipo-cartao" value="mastercard">
+            <label for="campo-cartao-mastercard">MasterCard</label>
+
+            <input type="radio" required id="campo-cartao-visa" name="tipo-cartao" value="visa">
+            <label for="campo-cartao-visa">Visa</label>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <button type="submit" class="botao-pagamento">Finalizar</button>
+        </form>
+    </div>
+</body>
+
+</html>
