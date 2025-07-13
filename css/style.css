@@ -112,15 +112,32 @@ footer {
 }
 
 .cadastro-cliente  {
+
+    background-color: white;
+    box-shadow: 
+    10px 10px 20px 1px rgba(0, 0, 0, 0.25),
+    -10px 10px 20px 1px rgba(0, 0, 0, 0.25),
+    10px 10px 20px 1px rgba(0, 0, 0, 0.25),
+    -10px 10px 20px 1px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 660px;
-    width: 700px;
-    background-color: rgb(224, 241, 241);
-    border: 5px solid;
-    border-radius: 10px;
-    padding-bottom: 30px;
+    height: 680px;
+    width: 500px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 215px;
+    padding-top: 50px;
+}
+
+.cadastro-input{
+    height: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.termos {
+    font-size: 20px;
 }
 
 .login-cliente  {
@@ -130,7 +147,6 @@ footer {
     -10px 10px 20px 1px rgba(0, 0, 0, 0.25),
     10px 10px 20px 1px rgba(0, 0, 0, 0.25),
     -10px 10px 20px 1px rgba(0, 0, 0, 0.25);
-    /*baixo; direita*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,6 +224,7 @@ footer {
 }
 
 /*------------------------------------------------------------------------------------------------*/
+
 .cadastro-pet {
     display: flex;
     justify-content: center;
