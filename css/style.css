@@ -73,6 +73,7 @@ footer {
     padding: 20px;
     font-size: 40px;
     gap: 10px;
+    
 
 }
 
@@ -84,10 +85,11 @@ footer {
     transition: background-image 0.1s ease;
     border: 5px solid;
     border-radius: 70px;
+    
 }
 
 .corpo-logo:hover {
-    background-image: url('assets/laika-lingua.png')
+    background-image: url('assets/laika-lingua.png');
     
 }
 
